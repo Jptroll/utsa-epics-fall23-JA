@@ -11,7 +11,7 @@ def split_images_into_folders(source_folder):
         folder_path = os.path.join(source_folder, folder_name)
         os.makedirs(folder_path)
     
-    # Get a list of image files in the source folder JD
+    # Get a list of image files in the source folder JA
     image_files = [file for file in os.listdir(source_folder) if file.startswith("juan_")]
     image_files.sort()  # Sort the image files
     
