@@ -1,5 +1,5 @@
 // C++ code
-//
+// JA Modify
 void setup()
 {
   pinMode(7, OUTPUT);
