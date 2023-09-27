@@ -5,7 +5,7 @@ def split_images_into_folders(source_folder):
     num_folders = 5
     images_per_folder = 10
     
-    # Create the destination folders
+    # Create the destination folders JA
     for i in range(num_folders):
         folder_name = f"folder_{i+1}"
         folder_path = os.path.join(source_folder, folder_name)
