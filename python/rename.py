@@ -21,7 +21,7 @@ def rename_images(folder_path):
         print(f"Renamed: {image_file} -> {new_name}")
 
 if __name__ == "__main__":
-    folder_path = "C:\\Users\\Jptroll\\Desktop\\python"  # Replace with your folder path
+    folder_path = "C:\\Users\\Jptroll\\Desktop\\python"  # Replace with your folder path ja
     rename_images(folder_path)
 
 
